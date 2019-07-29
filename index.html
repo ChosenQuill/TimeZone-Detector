@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>TimeZone Detector</title>
+    <meta name="author" content="SureDroid">
+    <meta name="description" content="Figure out what your timezone difference is in a single click.">
+    <meta name="keywords" content="timezone,timezone detector,utc,gmt">
+
+    <link rel="icon" type="image/png" href="favicon16x.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="favicon32x.png" sizes="32x32">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <div class="text">
+            Your Timezone Is:
+            <br>
+            <span id="timezone">&nbsp</span> (<span id="short"></span>)
+            <br>
+            UTC<span id="utc"></span>
+        </div>
+    </div>
+</body>
+<script src="js/moment.js"></script>
+
+<script src="js/main.js"></script>
+</html>

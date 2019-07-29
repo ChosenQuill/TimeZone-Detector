@@ -1,5 +1,6 @@
 .text {
     color: white;
+    font-family: 'Roboto', sans-serif;
     font-size: 6vw;
     position: absolute;
     width: 70vw;
@@ -7,6 +8,17 @@
     top: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+
+    background-color: rgba(1,1,1,0.3);
+    border-radius: 100px;
+    padding: 1vw;
+}
+
+@media (max-width: 480px) {
+    .text {
+        font-size: 8vw;
+        width: 90vw;
+    }
 }
 
 .main {
@@ -25,8 +37,6 @@
     -z-animation: rainbow 18s ease infinite;
     -o-animation: rainbow 18s ease infinite;
     animation: rainbow 18s ease infinite;
-
-    font-family: 'Roboto', sans-serif;
 }
 
 @-webkit-keyframes rainbow {
